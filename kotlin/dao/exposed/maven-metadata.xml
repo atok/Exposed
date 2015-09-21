@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>kotlin.dao</groupId>
+  <artifactId>exposed</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150921172319</lastUpdated>
+  </versioning>
+</metadata>
