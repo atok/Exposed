@@ -1,3 +1,22 @@
+This repository
+===============
+
+I needed a publicly acessible maven repository with this library. To make use of it, clone this repository and change the username in the URLs. Use at your own risk.
+
+If somebody knows how to fix pom.xml to run 'compile' before everything to make sure it does not deploy an empty JAR please let me know. 
+
+```
+<repository>
+    <id>exposed-mvn-repo</id>
+    <url>https://raw.github.com/atok/Exposed/mvn-repo/</url>
+    <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+    </snapshots>
+</repository>
+```
+
+
 Kotlin SQL Library
 ==================
 
